@@ -1,0 +1,17 @@
+.alert {
+  margin: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+.alert__title {
+  font-size: 20px;
+  font-weight: bold;
+}
+.alert__button {
+  width: 100%;
+  max-width: 200px;
+  background-color: blue;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,75 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 32px;
+}
+.form__title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #ddd;
+}
+.form__content {
+  display: grid;
+  gap: 24px;
+}
+.form__field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.form__label {
+  font-size: 14px;
+}
+.form__input {
+  border: 1px solid #ddd;
+  padding: 8px;
+  margin-right: 12px;
+}
+.form__button {
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 20px;
+}
+.form__silver {
+  color: silver;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.user-list li {
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.concat__field {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.concat__button {
+  display: flex;
+  justify-content: space-between;
+}
+
+#upd {
+  background-color: blue;
+  color: white;
+}
+
+#del {
+  background-color: red;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
