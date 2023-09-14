@@ -31,54 +31,32 @@
 	&__input {
 		border: 1px solid s.color('light');
 		padding: s.space(2);
-        margin-right: s.space(3);
 	}
 
 	&__button {
-		border: 1px solid s.color('light');
-		padding: s.space(2);
-		border-radius: 20px
+		text-decoration: none;
+		color: white;
+		display: inline-block;
+		font-size: 16px;
+		padding: 10px 20px;
+		background: s.color('button');
+		border-radius: 4px;
+		text-align: center;
 	}
 
-    &__silver{
-        color: silver
-    }
-}
-
-main {
-	display: flex;
-	flex-direction: column;
-	gap: s.space(10);
-}
-
-.user-list {
-	li {
-		padding-right: 15px;
-		padding-top: 5px;
-		padding-bottom: 5px;
+	&__colums {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: s.space(4);
 	}
 }
 
-.concat__field{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+.colums_button {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: s.space(4);
 }
 
-.concat__button{
-    display: flex;
-    justify-content: space-between;
-}
-
-#upd{
-    background-color: blue;
-    color: white
-}
-
-#del{
-    background-color: red;
-    color: white
-}
-
-a{
-    text-decoration: none;
+#delete {
+	background-color: s.color('danger');
 }

@@ -5,10 +5,9 @@
   gap: 32px;
 }
 .form__title {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   padding-bottom: 4px;
-  margin-bottom: 8px;
   border-bottom: 1px solid #ddd;
 }
 .form__content {
@@ -25,24 +24,19 @@
 }
 .form__input {
   border: 1px solid #ddd;
-  padding-right: 240px;
-  padding-left: 240px;
-  padding-bottom: 12px;
+  padding: 8px;
 }
 .form__button {
-  border: 1px solid blue;
-  background-color: blue;
-  color: white;
+  border: 1px solid #ddd;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 20px;
+  background-color: #3326e9;
+  color: white;
 }
-.form__product {
-  display: flex;
-  flex-direction: column;
-}
-.form__concat {
-  display: flex;
-  justify-content: space-around;
+.form__colums {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
