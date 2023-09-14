@@ -1,5 +1,22 @@
-<div class="alert">
-  <h1 class="alert__title">успішне виконання дії</h1>
-  {{info}}
-  <a href="/product-list"><button class="alert__button">Повернутися назад</button></a>
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+<div class="main">
+  <div class="main__alert">
+    <strong class="main__title">Успішні дії</strong>
+    <h1>{{info}}</h1>
+  </div>
+  <div>
+    <a href="/product-list" class="main__button">Повернутися назад</a>
+  </div>
 </div>
+
+
+{{!
+Цей код містить лише те, що буде виводитись в
+
+<body>
+  Адже наш layout/default.hbs має вже структуру HTML
+  }}
